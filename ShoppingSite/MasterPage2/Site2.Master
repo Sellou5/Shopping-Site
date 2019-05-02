@@ -1,0 +1,76 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="ShoppingSite.MasterPage2.Site2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <meta name="author" content="Wink Hosting (www.winkhosting.com)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="stylesheet" href="images/style.css" type="text/css" />
+	<title>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+        </asp:ContentPlaceHolder>
+	</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="page" align="center">
+		<div id="content" style="width:800px">
+			<div id="logo">
+				<div style="margin-top:70px" class="whitetitle">Online Shopping</div>
+			</div>
+			<div id="topheader">
+			    
+			</div>
+			<div id="menu">
+				<div align="right" class="smallwhitetext" style="padding:9px;">
+				    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                    </asp:SiteMapPath>
+				</div>
+			</div>
+			<div id="submenu">
+				<div align="right" class="smallgraytext" style="padding:9px;">
+					&nbsp;</div>
+			</div>
+			<div id="contenttext">
+				<div style="padding:10px">
+					<span class="titletext">Admin Panel</span>
+					</div>
+					<div class="bodytext" style="padding:12px;" align="justify">
+					    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+				</div>
+			</div>
+			<div id="leftpanel">
+			    <asp:TreeView ID="TreeView1" runat="server" ForeColor="Black" ImageSet="XPFileExplorer" NodeIndent="15" Width="251px">
+                    <HoverNodeStyle Font-Underline="True" ForeColor="#6666AA" />
+                    <Nodes>
+                        <asp:TreeNode NavigateUrl="~/UILayer/Home.aspx" Text="Home" Value="Home">
+                            <asp:TreeNode NavigateUrl="~/UILayer/LoginPage.aspx" Text="Login" Value="Login"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/UILayer/Registeration.aspx" Text="Registeration" Value="Registeration"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/UILayer/UserProfile.aspx" Text="Profile" Value="Profile">
+                                <asp:TreeNode NavigateUrl="~/UILayer/EditProfile.aspx" Text="Edit Profile" Value="Edit Profile"></asp:TreeNode>
+                                <asp:TreeNode NavigateUrl="~/UILayer/ChangePass.aspx" Text="Change Password" Value="Change Password"></asp:TreeNode>
+                            </asp:TreeNode>
+                        </asp:TreeNode>
+                        <asp:TreeNode NavigateUrl="~/UILayer/ViewProducts.aspx" Text="View Products" Value="View Products"></asp:TreeNode>
+                        <asp:TreeNode NavigateUrl="~/UILayer/Contact.aspx" Text="Contact Us" Value="Contact Us"></asp:TreeNode>
+                        <asp:TreeNode NavigateUrl="~/UILayer/AboutPage.aspx" Text="About Us" Value="About Us"></asp:TreeNode>
+                        <asp:TreeNode NavigateUrl="~/UILayer/ShopPolic.aspx" Text="Shop Policies" Value="Shop Policies"></asp:TreeNode>
+                    </Nodes>
+                    <NodeStyle Font-Names="Tahoma" Font-Size="8pt" ForeColor="Black" HorizontalPadding="2px" NodeSpacing="0px" VerticalPadding="2px" />
+                    <ParentNodeStyle Font-Bold="False" ForeColor="Black" />
+                    <RootNodeStyle ForeColor="Black" />
+                    <SelectedNodeStyle BackColor="#B5B5B5" Font-Underline="False" HorizontalPadding="0px" VerticalPadding="0px" />
+                </asp:TreeView>
+			</div>
+			<div id="footer" class="smallgraytext">
+				ITI groub 2 - ASP.net Project &copy; 2017 </div>
+		</div>
+	</div>
+        </div>
+    </form>
+</body>
+</html>
