@@ -1,0 +1,16 @@
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\bin\ShoppingSite.dll.config
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\bin\ShoppingSite.dll
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\bin\ShoppingSite.pdb
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.csproj.CoreCompileInputs.cache
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.dll
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.pdb
+E:\ITI\ASP.NET\Project\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.csprojResolveAssemblyReference.cache
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\bin\ShoppingSite.dll.config
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\bin\ShoppingSite.dll
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\bin\ShoppingSite.pdb
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.csprojResolveAssemblyReference.cache
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.csproj.CoreCompileInputs.cache
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.dll
+E:\ITI\ASP.NET\Project\Backup\ShoppingSite\ShoppingSite\obj\Debug\ShoppingSite.pdb
