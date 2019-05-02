@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/UILayer/AdminPanel.aspx" title="Admin Panel"  description="">
+    <siteMapNode url="~/UILayer/ManageUser.aspx" title="Manage Users"  description="" />
+    <siteMapNode url="~/UILayer/ManageProducts.aspx" title="Manage Products"  description="">
+      <siteMapNode url="~/UILayer/add_product.aspx" title="Add Product" />
+      <siteMapNode url="~/UILayer/edit_category.aspx" title="Edit Categories" />
+      <siteMapNode url="~/UILayer/ListProduct.aspx" title="List Products" />
+    </siteMapNode>
+    <siteMapNode url="~/UILayer/ManageOrder.aspx" title="Manage Orders"  description="" />
+    <siteMapNode url="~/UILayer/AdminMsg.aspx" title="Messages"  description="" />
+  </siteMapNode>
+</siteMap>
